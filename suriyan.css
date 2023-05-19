@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first_div{
+    position: relative;
+}
+.suri_video{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 700px;
+    max-height: 700px;
+    object-fit: cover;
+}
+.image_overlay{
+    position: absolute;
+    background-color: rgba(35,45,57,0.8);
+    top: 0;
+    bottom: 7px;
+    width:100%;
+    height: 700px;
+}
+.mambatti{
+    color: rgba(255, 136, 0, 0.993);
+}
+.output{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.second_button{
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:rgba(255, 136, 0, 0.993) ;
+}
+.first_button{
+    margin-top: 20px;
+}
+.third_div{
+    display: grid;
+    gap: 120px;
+    place-items: center;
+    color: white;
+}
+.small_heading{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.main_heading{
+    font-size: 55px;
+    text-align: center;
+}
+.main_heading span{
+    color: rgba(255, 136, 0, 0.993);
+}
+.india{
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px;
+    background-color: rgba(255, 136, 0, 0.993);
+}
+.pakisthan{
+    color: white;
+    text-decoration: none;
+    font-weight:400;
+}
+.division1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    /* place-items: center;
+    text-align: center; */
+}
+.kutti_div{
+    float: left;
+}
+.division2{
+    padding: 10px;
+}
+.image_rimaala{
+    width: 140px;
+    padding-right: 20px;
+}
+.periya_div p{
+    font-size: 14px;     
+}
+.periya_div h4{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgba(255, 136, 0, 0.993);
+}
+.top_div{
+    text-align: center;
+    font-size: 30px;
+}
+.soker{
+    color: rgba(255, 136, 0, 0.993);
+}
+.section2{
+    margin-top: 20px;
+}
+.section3{
+    background-image: url(photos/cta-bg.jpg);
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+}
+.bajaj{
+    display: grid;
+    place-items: center;
+    gap: 30px;
+}
+.fifth_div h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.silra{
+    color: rgba(255, 136, 0, 0.993);
+}
+.tea{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.third_button{
+    width: 170px;
+    height: 40px;
+    background-color: rgba(255, 136, 0, 0.993);
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px;
+}
+.third_button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+/* .container {
+    display: flex;
+} */
+.local{
+    display: flex;
+    height: 100vh;
+    margin-top: 20px;
+}
+  
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+   width: 30%;
+   display: grid;
+}
+  
+.title {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.content {
+    width: 60%;
+    padding: 20px;
+}
+  
+.hidden {
+    display: none;
+}
+.hidden.active {
+    display: block;
+  }
+  
+.content img {
+    width: 80%;
+    
+    height: auto;
+    border-radius: 20px;
+}
+  
+.content h3 {
+    margin-top: 10px;
+}
+  
+.content p {
+    margin-top: 10px;
+}
+.section4{
+    margin-top: 20px;
+} 
+.hindu{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.hindu h1{
+    font-size: 40px;
+}
+.hindu span{
+    color:rgba(255, 136, 0, 0.993) ;
+}
+.kumti{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgba(255, 136, 0, 0.993) ;
+    box-shadow: 2px 2px 2px;
+    margin-top: 40px;
+}
+.kumti a{
+    color: white;
+    text-decoration: none;
+}
+.lenovo{
+    padding-right: 10px;
+}
+.title:active{
+    color: rgba(255, 136, 0, 0.993);
+}
+.maja{
+    border: 2px solid;
+}
+.soja{
+    border: 2px solid;
+}
+.shit{
+    border: 2px solid;
+    text-align: center;
+}
+.section5{
+    background-image: url(photos/schedule-bg.jpg);
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+.koli h1{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.engine{
+    color:rgba(255, 136, 0, 0.993);
+}
+.koli p{
+    padding: 20px;
+    color: white;
+}
+.harsh{
+    margin-top: 20px;
+    display: grid;
+    gap: 60px;
+    place-items: center;
+}
+.venkat{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+    background-color:rgba(255, 136, 0, 0.993) ;
+}
+.technology{
+    color: white;
+    text-decoration: none;
+}
+.section6{
+    margin-top: 10px;
+}
+.andrew{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    padding: 10px;
+}
+.cricket{
+    color: rgba(255, 136, 0, 0.993);
+}
+.andrew p{
+    padding: 10px;
+    display: grid;
+}
+.naac{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 30px;
+}
+.ben10{
+    padding: 10px;
+    gap: 10px;
+}
+.gwen{
+    width: 100%;
+    height: 230px;
+}
+.max{
+    color:rgba(255, 136, 0, 0.993) ;
+    font-size: 15px;
+    text-align: center;
+}
+.alien{
+    font-size: 30px;
+    text-align: center;
+}
+.tentasion{
+    text-align: center;
+}
+.matrix{
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+}
+.bugatti:hover{
+    color:rgba(255, 136, 0, 0.993)  ;
+}
+.section7{
+    padding-top: 10px;
+}
+.sunny{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    background-color: rgba(28, 39, 53, 0.8);
+}
+.virat{
+    background-image: url(photos/contact-bg.jpg);
+    width: 50%;
+    height: 500px;
+    float: right;
+    position: relative;
+    background-size: cover;
+}
+.whole_div{
+    display: grid;
+    gap: 10px;
+    /* place-items: center; */
+}
+.white_bg{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 85%;
+      height: 85%;
+      background-color: white;
+      border-radius: 10px;  
+      display: grid;
+      place-items:center ; 
+}
+#Your_name,#gmail,#subjects{
+    border: 2px solid;
+    border-radius: 4px;
+}
+#message{
+    border: 2px solid;
+    border-radius: 4px;
+}
+.username input{
+    width: 300px;
+    height: 40px;
+}
+.subject textarea{
+    width:300px ;
+    height: 60px;
+}
+.message textarea{
+    width: 300px;
+    height: 100px;
+}
+.butti{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 136, 0, 0.993);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+.shimt{
+    color: white;
+    text-decoration: none;
+}
+.send_message{
+    padding-top: 15px;
+    display: grid;
+    place-items: center;
+}
+footer{
+    text-align: center;
+}
+.colormame{
+    color: rgba(255, 136, 0, 0.993);
+}
